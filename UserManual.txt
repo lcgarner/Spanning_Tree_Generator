@@ -1,0 +1,31 @@
+*User Manual* 
+
+This project allows the user to build a graph in an interactive window. Once the user
+is finished creating the graph, the program - using DFS - draws a red spanning tree over 
+the black graph.
+
+This project is fairly straight-forward to use. 
+
+Run it from the Driver class. When it runs, a window called BuildGraph pops up 
+with a button that says "Get Spanning Tree".
+
+Before clicking that button, make sure to build a graph so there is something for the
+SpanningTree class to work with. It is fun to build a graph with lots of edges;
+it makes for a more interesting search. 
+
+To build a graph:
+    - Click anywhere within the window to place a node. 
+    - If you have placed at least two nodes, then you can create an edge. Simply press
+      down on the desired source node with your mouse and drag the mouse to hover over 
+      another node (the destination node) before releasing the mouse. 
+    - Again, the program will work best if you connect the nodes of your graph with edges; 
+      otherwise, there is no way to traverse the graph with DFS. 
+
+When you are satisfied with your graph, press "Get Spanning Tree" and another window 
+will pop up displaying your graph and a corresponding spanning tree drawn over it in red.
+
+You can also check out the individual parts of this program by running the testers. 
+One of these testers is GenericTester, which is my generic class for this project.
+It can test any one of the important building blocks of a graph-based
+project like this one: Nodes, Edges, and Graphs. It works by checking whether the object
+is an instance of the specified type with the java "instance of" operator. 

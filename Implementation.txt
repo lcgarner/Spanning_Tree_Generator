@@ -1,0 +1,36 @@
+*Implementation Details*
+
+Learning event-handling in java, though I did have a tiny bit of experience with it
+prior to this class, was surprisingly difficult, and I had to consult a few sources in order to
+wrap my head around how event listeners are actually implemented. 
+
+I consulted one article with an example implementation of a JFrame window with mouse 
+event handling. I modeled my Driver class off of this at first - as a starting point.
+    - https://examples.javacodegeeks.com/java-development/desktop-java/swing/jframe/create-jframe-window-with-mouse-event-handling/
+
+I read a few other articles about event listeners / graphics.
+    - https://www.geeksforgeeks.org/event-handling-in-java/
+    - https://www.javatpoint.com/event-handling-in-java
+
+I also needed a bit of external help with the DFS algorithm, as this was not a concept
+that we truly covered in class. I remember that this article had very helpful pseudocode and example
+implementations of DFS in java.
+    - https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+
+It was quite difficult for me to figure out how to store the graph that the user builds
+in BuildGraph, but I ended up making my own version of a GraphBuilder, obviously inspired
+by other, existing code; however, I made it my own and learned a lot in the process.
+    - https://www.javadoc.io/doc/com.google.guava/guava/20.0/com/google/common/graph/GraphBuilder.html
+
+For the most part, though, I figured things out on my own. Obviously, the Node, Edge, 
+and Graph classes are mostly recycled from my previous work in this class. I am proud
+of how I figured the graphics out on my own, as well as the fairly abstract / conceptual
+aspects of the project. 
+
+I accomplished everything I set out to accomplish. That being said, if I had more time, 
+I would definitely look more into Minimum Spanning Trees. There are some really cool 
+algorithms out there relating to this stuff. I might have also added a few
+other functionalities to my project, like a Random Spanning Tree Generator or a more 
+complicated, educational interface. I really like how my interface allows the user to
+be as creative as they want with their graphs, though!
+
