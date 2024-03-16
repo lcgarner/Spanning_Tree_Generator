@@ -1,4 +1,4 @@
-# Spanning_Tree_Generator
+# spanning_tree_generator
 
 ## Overview
 Spanning_Tree_Generator is an interactive graph-building tool that enables users to create their own graphs and visualize a spanning tree generated using Depth-First Search (DFS). This project offers an intuitive interface for graph construction and provides a visual representation of spanning trees overlaid on the original graph.
