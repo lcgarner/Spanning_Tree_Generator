@@ -8,6 +8,9 @@ Spanning_Tree_Generator is an interactive graph-building tool that enables users
 - Spanning Tree Visualization: After building your graph, generate and view a spanning tree drawn in red over your original graph, providing a clear distinction and understanding of the spanning tree structure.
 
 ## How to Use
+
+Clone the repository.
+
 Start the Application: 
 - Run the application from the Driver class, which opens the BuildGraph window.
   
