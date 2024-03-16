@@ -18,8 +18,3 @@ Build Your Graph:
 
 Generate Spanning Tree: 
 - Click the "Get Spanning Tree" button to visualize the spanning tree overlaying the original graph in a new window.
-
-## Testing
-Explore the functionality and robustness of the Spanning Tree Generator by running included tester classes, such as GenericTester, which validates the core components (Nodes, Edges, Graphs) of the application.
-
-Enjoy creating complex or simple graphs and visualizing how spanning trees connect their nodes in an optimized, non-cyclical manner.
